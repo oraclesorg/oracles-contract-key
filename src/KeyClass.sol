@@ -21,4 +21,5 @@ contract KeyClass {
     mapping(address => PayoutKey) public payoutKeys;
     mapping(address => VotingKey) public votingKeys;
     mapping(address => InitialKey) public initialKeys;
+    mapping(address => address) public votingMiningKeysPair;
 }
